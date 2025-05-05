@@ -1,1 +1,479 @@
+<html class="scroll-smooth" lang="pt-BR">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Eventixel - Plataforma de Eventos 3D e Híbridos
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Montserrat', sans-serif;
+    }
+  </style>
+ </head>
+ <body class="bg-gray-900 text-gray-200 min-h-screen flex flex-col">
+  <header class="bg-gray-800 shadow-md sticky top-0 z-50">
+   <div class="container mx-auto flex items-center justify-between p-4">
+    <a class="flex items-center space-x-3" href="#">
+     <span class="text-3xl font-extrabold text-blue-500 select-none">
+      Eventixel
+     </span>
+    </a>
+    <nav class="hidden md:flex space-x-8 font-semibold text-gray-300">
+     <a class="hover:text-blue-400 transition" href="#como-funciona">
+      Como Funciona
+     </a>
+     <a class="hover:text-blue-400 transition" href="#servicos">
+      Serviços
+     </a>
+     <a class="hover:text-blue-400 transition" href="#precificacao">
+      Precificação
+     </a>
+     <a class="hover:text-blue-400 transition" href="#ia">
+      IA Personalizada
+     </a>
+     <a class="hover:text-blue-400 transition" href="#contato">
+      Contato
+     </a>
+    </nav>
+    <button aria-label="Abrir menu" class="md:hidden text-gray-300 hover:text-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-500" id="btn-menu">
+     <i class="fas fa-bars fa-lg">
+     </i>
+    </button>
+   </div>
+   <nav aria-label="Menu móvel" class="hidden bg-gray-800 border-t border-gray-700 md:hidden" id="mobile-menu">
+    <a class="block px-6 py-3 border-b border-gray-700 hover:bg-gray-700 transition" href="#como-funciona">
+     Como Funciona
+    </a>
+    <a class="block px-6 py-3 border-b border-gray-700 hover:bg-gray-700 transition" href="#servicos">
+     Serviços
+    </a>
+    <a class="block px-6 py-3 border-b border-gray-700 hover:bg-gray-700 transition" href="#precificacao">
+     Precificação
+    </a>
+    <a class="block px-6 py-3 border-b border-gray-700 hover:bg-gray-700 transition" href="#ia">
+     IA Personalizada
+    </a>
+    <a class="block px-6 py-3 hover:bg-gray-700 transition" href="#contato">
+     Contato
+    </a>
+   </nav>
+  </header>
+  <main class="flex-grow">
+   <section class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-center py-20 px-6" id="hero">
+    <h1 class="text-5xl md:text-6xl font-extrabold text-blue-500 mb-6 leading-tight">
+     Crie Eventos Incríveis em 3D e Híbridos com
+     <span class="text-white">
+      Eventixel
+     </span>
+    </h1>
+    <p class="max-w-3xl mx-auto text-gray-300 text-lg md:text-xl mb-10">
+     Organize seu evento, escolha layouts 3D, adicione palcos, estandes, mesas, cadeiras e decoração.
+        Oferecemos espaços físicos, experiências híbridas e uma IA que personaliza seu evento automaticamente.
+    </p>
+    <a class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg shadow-lg transition" href="#como-funciona">
+     Saiba Mais
+    </a>
+   </section>
+   <section class="container mx-auto px-6 py-16 max-w-7xl scroll-mt-24" id="como-funciona">
+    <h2 class="text-4xl font-extrabold text-blue-500 mb-10 text-center">
+     Como Funciona
+    </h2>
+    <div class="grid gap-12 md:grid-cols-3">
+     <article class="bg-gray-800 rounded-xl p-6 flex flex-col items-center text-center shadow-lg hover:shadow-blue-600 transition">
+      <img alt="Imagem ilustrativa de um layout 3D de evento com palcos, estandes, mesas e cadeiras em perspectiva isométrica" class="w-40 h-40 mb-6 rounded-lg object-cover" height="160" src="https://storage.googleapis.com/a1aa/image/01caaec5-53b0-45ca-fcf8-a32f8804887e.jpg" width="160"/>
+      <h3 class="text-2xl font-bold mb-3 text-blue-400">
+       Crie o Evento e Escolha o Layout 3D
+      </h3>
+      <p class="text-gray-300">
+       Monte seu evento com um editor 3D intuitivo, adicionando palcos, estandes, mesas, cadeiras e decoração para personalizar o espaço.
+      </p>
+     </article>
+     <article class="bg-gray-800 rounded-xl p-6 flex flex-col items-center text-center shadow-lg hover:shadow-blue-600 transition">
+      <img alt="Imagem mostrando um mapa com um pin indicando um local físico para eventos e um ícone de prédio representando espaço da plataforma" class="w-40 h-40 mb-6 rounded-lg object-cover" height="160" src="https://storage.googleapis.com/a1aa/image/2c19fc01-5ae5-4969-172e-a143ee1e021c.jpg" width="160"/>
+      <h3 class="text-2xl font-bold mb-3 text-blue-400">
+       Escolha o Local do Evento
+      </h3>
+      <p class="text-gray-300">
+       Decida se o evento será em um espaço físico da plataforma ou no local de sua preferência, com total flexibilidade.
+      </p>
+     </article>
+     <article class="bg-gray-800 rounded-xl p-6 flex flex-col items-center text-center shadow-lg hover:shadow-blue-600 transition">
+      <img alt="Imagem representando serviços adicionais como decoração, iluminação e catering com ícones de lâmpada, prato e flores" class="w-40 h-40 mb-6 rounded-lg object-cover" height="160" src="https://storage.googleapis.com/a1aa/image/95e00ffe-9ea9-425f-720d-0b75f6c3fbf8.jpg" width="160"/>
+      <h3 class="text-2xl font-bold mb-3 text-blue-400">
+       Fornecedores e Serviços Adicionais
+      </h3>
+      <p class="text-gray-300">
+       Contrate fornecedores de decoração, iluminação e catering para garantir que seu evento seja perfeito e fiel ao design.
+      </p>
+     </article>
+    </div>
+    <div class="mt-16 max-w-3xl mx-auto text-center">
+     <img alt="Imagem mostrando uma tela dividida com participantes virtuais em videoconferência e pessoas presentes fisicamente em um evento" class="rounded-xl shadow-lg mx-auto w-full max-w-[600px] h-[300px] object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/88d37403-8dac-4032-b78c-e337361f8dd9.jpg" width="600" style=""/>
+     <h3 class="text-3xl font-extrabold text-blue-400 mt-8">
+      Experiência Híbrida para Todos os Participantes
+     </h3>
+     <p class="text-gray-300 mt-4 text-lg">
+      Permita que alguns participantes estejam presentes fisicamente enquanto outros participam virtualmente, tudo integrado na mesma plataforma.
+     </p>
+    </div>
+   </section>
+   <section class="bg-gray-800 py-16 px-6" id="servicos">
+    <div class="container mx-auto max-w-7xl">
+     <h2 class="text-4xl font-extrabold text-blue-500 mb-12 text-center">
+      Serviços Oferecidos
+     </h2>
+     <div class="grid gap-12 md:grid-cols-3">
+      <div class="bg-gray-900 rounded-xl p-8 shadow-lg hover:shadow-blue-600 transition flex flex-col items-center text-center">
+       <img alt="Ícone representando layout 3D com cubos e formas geométricas" class="mb-6 rounded-lg object-cover" height="120" src="https://storage.googleapis.com/a1aa/image/5c113a4f-bcbe-43e9-2ec3-964fe7a2b454.jpg" width="120"/>
+       <h3 class="text-2xl font-bold text-blue-400 mb-3">
+        Editor de Layout 3D
+       </h3>
+       <p class="text-gray-300">
+        Crie e personalize o espaço do seu evento com palcos, estandes, mesas, cadeiras e decoração em um ambiente 3D interativo.
+       </p>
+      </div>
+      <div class="bg-gray-900 rounded-xl p-8 shadow-lg hover:shadow-blue-600 transition flex flex-col items-center text-center">
+       <img alt="Ícone de prédio moderno representando espaço físico para eventos" class="mb-6 rounded-lg object-cover" height="120" src="https://storage.googleapis.com/a1aa/image/65313b85-6af2-4fa9-5a60-79f245b63551.jpg" width="120"/>
+       <h3 class="text-2xl font-bold text-blue-400 mb-3">
+        Espaços Físicos
+       </h3>
+       <p class="text-gray-300">
+        Disponibilizamos espaços físicos equipados para a realização do seu evento, com toda infraestrutura necessária.
+       </p>
+      </div>
+      <div class="bg-gray-900 rounded-xl p-8 shadow-lg hover:shadow-blue-600 transition flex flex-col items-center text-center">
+       <img alt="Ícones representando serviços adicionais como decoração, iluminação e catering" class="mb-6 rounded-lg object-cover" height="120" src="https://storage.googleapis.com/a1aa/image/fbc5618d-5377-43e9-3578-814b9c5e2ecd.jpg" width="120"/>
+       <h3 class="text-2xl font-bold text-blue-400 mb-3">
+        Serviços Adicionais
+       </h3>
+       <p class="text-gray-300">
+        Fornecedores de decoração, iluminação, catering e muito mais para garantir que seu evento seja impecável.
+       </p>
+      </div>
+      <div class="bg-gray-900 rounded-xl p-8 shadow-lg hover:shadow-blue-600 transition flex flex-col items-center text-center">
+       <img alt="Ícone representando evento híbrido com pessoas físicas e tela de videoconferência" class="mb-6 rounded-lg object-cover" height="120" src="https://storage.googleapis.com/a1aa/image/030c3d63-a591-4e76-0664-74c9cb900672.jpg" width="120"/>
+       <h3 class="text-2xl font-bold text-blue-400 mb-3">
+        Eventos Híbridos
+       </h3>
+       <p class="text-gray-300">
+        Combine participantes presenciais e virtuais em uma experiência integrada e interativa.
+       </p>
+      </div>
+      <div class="bg-gray-900 rounded-xl p-8 shadow-lg hover:shadow-blue-600 transition flex flex-col items-center text-center">
+       <img alt="Ícone de cérebro digital representando inteligência artificial para personalização de eventos" class="mb-6 rounded-lg object-cover" height="120" src="https://storage.googleapis.com/a1aa/image/5542a26f-be91-44f7-8c31-7da940eed076.jpg" width="120"/>
+       <h3 class="text-2xl font-bold text-blue-400 mb-3">
+        IA para Personalização
+       </h3>
+       <p class="text-gray-300">
+        Informe o tema do seu evento e receba sugestões automáticas de layouts e decorações geradas por inteligência artificial.
+       </p>
+      </div>
+      <div class="bg-gray-900 rounded-xl p-8 shadow-lg hover:shadow-blue-600 transition flex flex-col items-center text-center">
+       <img alt="Ícone de headset representando suporte 24 horas para organizadores de eventos" class="mb-6 rounded-lg object-cover" height="120" src="https://storage.googleapis.com/a1aa/image/ee0e60ac-9412-4c71-9dea-ea8d402ad7c5.jpg" width="120"/>
+       <h3 class="text-2xl font-bold text-blue-400 mb-3">
+        Suporte 24h
+       </h3>
+       <p class="text-gray-300">
+        Equipe dedicada para ajudar você em todas as etapas do planejamento e realização do seu evento.
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="container mx-auto px-6 py-16 max-w-7xl scroll-mt-24" id="precificacao">
+    <h2 class="text-4xl font-extrabold text-blue-500 mb-12 text-center">
+     Precificação
+    </h2>
+    <div class="grid gap-10 md:grid-cols-3">
+     <div class="bg-gray-800 rounded-xl p-8 shadow-lg hover:shadow-blue-600 transition flex flex-col">
+      <h3 class="text-3xl font-bold text-blue-400 mb-6 text-center">
+       Evento Virtual
+      </h3>
+      <p class="text-gray-300 mb-6 text-center">
+       Evento totalmente online com layout 3D e participação virtual.
+      </p>
+      <ul class="mb-8 space-y-3 text-gray-300">
+       <li class="flex items-center">
+        <i class="fas fa-check-circle text-blue-500 mr-3">
+        </i>
+        Editor de layout 3D
+       </li>
+       <li class="flex items-center">
+        <i class="fas fa-check-circle text-blue-500 mr-3">
+        </i>
+        Participação virtual ilimitada
+       </li>
+       <li class="flex items-center">
+        <i class="fas fa-check-circle text-blue-500 mr-3">
+        </i>
+        Suporte básico
+       </li>
+      </ul>
+      <div class="text-center mt-auto">
+       <span class="text-4xl font-extrabold text-white">
+        R$ 1.200
+       </span>
+       <span class="text-gray-400">
+        / evento
+       </span>
+      </div>
+     </div>
+     <div class="bg-gray-800 rounded-xl p-8 shadow-lg hover:shadow-blue-600 transition flex flex-col border-2 border-blue-500">
+      <h3 class="text-3xl font-bold text-blue-400 mb-6 text-center">
+       Evento Presencial
+      </h3>
+      <p class="text-gray-300 mb-6 text-center">
+       Evento em espaço físico da plataforma com layout 3D e serviços adicionais.
+      </p>
+      <ul class="mb-8 space-y-3 text-gray-300">
+       <li class="flex items-center">
+        <i class="fas fa-check-circle text-blue-500 mr-3">
+        </i>
+        Espaço físico equipado
+       </li>
+       <li class="flex items-center">
+        <i class="fas fa-check-circle text-blue-500 mr-3">
+        </i>
+        Serviços adicionais opcionais
+       </li>
+       <li class="flex items-center">
+        <i class="fas fa-check-circle text-blue-500 mr-3">
+        </i>
+        Suporte prioritário
+       </li>
+      </ul>
+      <div class="text-center mt-auto">
+       <span class="text-4xl font-extrabold text-white">
+        R$ 5.500
+       </span>
+       <span class="text-gray-400">
+        / evento
+       </span>
+      </div>
+     </div>
+     <div class="bg-gray-800 rounded-xl p-8 shadow-lg hover:shadow-blue-600 transition flex flex-col">
+      <h3 class="text-3xl font-bold text-blue-400 mb-6 text-center">
+       Evento Híbrido
+      </h3>
+      <p class="text-gray-300 mb-6 text-center">
+       Combinação de participantes presenciais e virtuais com suporte completo.
+      </p>
+      <ul class="mb-8 space-y-3 text-gray-300">
+       <li class="flex items-center">
+        <i class="fas fa-check-circle text-blue-500 mr-3">
+        </i>
+        Layout 3D e espaço físico
+       </li>
+       <li class="flex items-center">
+        <i class="fas fa-check-circle text-blue-500 mr-3">
+        </i>
+        Participação virtual e presencial
+       </li>
+       <li class="flex items-center">
+        <i class="fas fa-check-circle text-blue-500 mr-3">
+        </i>
+        Suporte premium 24h
+       </li>
+      </ul>
+      <div class="text-center mt-auto">
+       <span class="text-4xl font-extrabold text-white">
+        R$ 8.900
+       </span>
+       <span class="text-gray-400">
+        / evento
+       </span>
+      </div>
+     </div>
+    </div>
+    <div class="mt-16 max-w-4xl mx-auto">
+     <h3 class="text-3xl font-extrabold text-blue-500 mb-8 text-center">
+      Serviços Adicionais (opcionais)
+     </h3>
+     <div class="grid gap-8 md:grid-cols-3 text-gray-300">
+      <div class="bg-gray-700 rounded-lg p-6 flex flex-col items-center text-center shadow-md hover:shadow-blue-600 transition">
+       <img alt="Ícone representando decoração com flores e elementos decorativos" class="mb-4 rounded-lg object-cover" height="100" src="https://storage.googleapis.com/a1aa/image/b78acc03-b84a-46f4-df55-601e679c8d73.jpg" width="100"/>
+       <h4 class="text-xl font-semibold mb-2 text-blue-400">
+        Decoração
+       </h4>
+       <p>
+        R$ 1.200
+       </p>
+      </div>
+      <div class="bg-gray-700 rounded-lg p-6 flex flex-col items-center text-center shadow-md hover:shadow-blue-600 transition">
+       <img alt="Ícone representando iluminação com lâmpadas e holofotes" class="mb-4 rounded-lg object-cover" height="100" src="https://storage.googleapis.com/a1aa/image/ae535c9c-4432-4aa2-4a32-2f02f902e85c.jpg" width="100"/>
+       <h4 class="text-xl font-semibold mb-2 text-blue-400">
+        Iluminação
+       </h4>
+       <p>
+        R$ 1.000
+       </p>
+      </div>
+      <div class="bg-gray-700 rounded-lg p-6 flex flex-col items-center text-center shadow-md hover:shadow-blue-600 transition">
+       <img alt="Ícone representando catering com prato gourmet e talheres" class="mb-4 rounded-lg object-cover" height="100" src="https://storage.googleapis.com/a1aa/image/bbbeccea-8c73-49ec-2126-daa97ae4ba59.jpg" width="100"/>
+       <h4 class="text-xl font-semibold mb-2 text-blue-400">
+        Catering
+       </h4>
+       <p>
+        R$ 2.500
+       </p>
+      </div>
+      <div class="bg-gray-700 rounded-lg p-6 flex flex-col items-center text-center shadow-md hover:shadow-blue-600 transition">
+       <img alt="Ícone representando segurança com escudo e cadeado" class="mb-4 rounded-lg object-cover" height="100" src="https://storage.googleapis.com/a1aa/image/821f9af9-98e9-476f-99a5-2920d0c5e9e6.jpg" width="100"/>
+       <h4 class="text-xl font-semibold mb-2 text-blue-400">
+        Segurança
+       </h4>
+       <p>
+        R$ 1.800
+       </p>
+      </div>
+      <div class="bg-gray-700 rounded-lg p-6 flex flex-col items-center text-center shadow-md hover:shadow-blue-600 transition">
+       <img alt="Ícone representando transporte com caminhão e van" class="mb-4 rounded-lg object-cover" height="100" src="https://storage.googleapis.com/a1aa/image/426266f6-90e0-48c1-78f4-282056e3a539.jpg" width="100"/>
+       <h4 class="text-xl font-semibold mb-2 text-blue-400">
+        Transporte
+       </h4>
+       <p>
+        R$ 1.400
+       </p>
+      </div>
+      <div class="bg-gray-700 rounded-lg p-6 flex flex-col items-center text-center shadow-md hover:shadow-blue-600 transition">
+       <img alt="Ícone representando limpeza com vassoura e balde" class="mb-4 rounded-lg object-cover" height="100" src="https://storage.googleapis.com/a1aa/image/0f95315c-6fba-4487-fd1a-1a2d697988a2.jpg" width="100"/>
+       <h4 class="text-xl font-semibold mb-2 text-blue-400">
+        Limpeza
+       </h4>
+       <p>
+        R$ 900
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="bg-gray-800 py-16 px-6" id="ia">
+    <div class="container mx-auto max-w-5xl text-center">
+     <h2 class="text-4xl font-extrabold text-blue-500 mb-10">
+      IA para Personalização do Seu Evento
+     </h2>
+     <p class="text-gray-300 text-lg max-w-3xl mx-auto mb-12">
+      Nossa inteligência artificial ajuda você a criar o evento perfeito. Basta informar o tema e ela gera automaticamente sugestões de layouts, decoração e organização para seu evento.
+     </p>
+     <form class="flex flex-col md:flex-row items-center justify-center gap-4 max-w-3xl mx-auto">
+      <input aria-label="Tema do evento" class="w-full md:flex-1 rounded-lg px-4 py-3 text-gray-900 font-semibold focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Digite o tema do seu evento" type="text"/>
+      <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-lg px-8 py-3 shadow-lg transition" type="submit">
+       Gerar Sugestões
+      </button>
+     </form>
+     <div aria-live="polite" class="mt-14 grid gap-10 md:grid-cols-3" id="ia-result">
+      <article class="bg-gray-900 rounded-xl p-6 shadow-lg hover:shadow-blue-600 transition cursor-default">
+       <img alt="Exemplo gerado pela IA mostrando um layout 3D moderno com palcos, mesas e decoração temática azul e branca" class="w-full h-44 object-cover rounded-lg mb-4" height="180" src="https://storage.googleapis.com/a1aa/image/19d1da1c-1d60-42ed-20fa-e1975110ec94.jpg" width="280"/>
+       <h3 class="text-xl font-bold text-blue-400 mb-2">
+        Layout Moderno Azul
+       </h3>
+       <p class="text-gray-300 text-sm">
+        Palcos centrais, mesas redondas e decoração com iluminação azul para um evento elegante e tecnológico.
+       </p>
+      </article>
+      <article class="bg-gray-900 rounded-xl p-6 shadow-lg hover:shadow-blue-600 transition cursor-default">
+       <img alt="Exemplo gerado pela IA mostrando um layout 3D com estandes coloridos, cadeiras e decoração vibrante em tons quentes" class="w-full h-44 object-cover rounded-lg mb-4" height="180" src="https://storage.googleapis.com/a1aa/image/cf02fe39-8b37-4819-6cd8-84b13f796e00.jpg" width="280"/>
+       <h3 class="text-xl font-bold text-blue-400 mb-2">
+        Layout Vibrante e Colorido
+       </h3>
+       <p class="text-gray-300 text-sm">
+        Estandes coloridos, cadeiras confortáveis e decoração vibrante para eventos dinâmicos e interativos.
+       </p>
+      </article>
+      <article class="bg-gray-900 rounded-xl p-6 shadow-lg hover:shadow-blue-600 transition cursor-default">
+       <img alt="Exemplo gerado pela IA mostrando um layout 3D minimalista com mesas retangulares, cadeiras brancas e decoração clean" class="w-full h-44 object-cover rounded-lg mb-4" height="180" src="https://storage.googleapis.com/a1aa/image/6b7d3742-47c7-4975-22f9-d3f26d0abdf0.jpg" width="280"/>
+       <h3 class="text-xl font-bold text-blue-400 mb-2">
+        Layout Minimalista Clean
+       </h3>
+       <p class="text-gray-300 text-sm">
+        Mesas retangulares, cadeiras brancas e decoração clean para eventos corporativos e formais.
+       </p>
+      </article>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="bg-gray-900 border-t border-gray-700 py-12 px-6" id="contato">
+   <div class="container mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-3 gap-12">
+    <div>
+     <h3 class="text-2xl font-extrabold text-blue-500 mb-6">
+      Eventixel
+     </h3>
+     <p class="text-gray-400 max-w-sm">
+      Plataforma completa para criação, personalização e realização de eventos 3D e híbridos.
+     </p>
+     <div class="flex space-x-6 mt-6 text-gray-400">
+      <a aria-label="Facebook" class="hover:text-blue-500 transition" href="#">
+       <i class="fab fa-facebook fa-lg">
+       </i>
+      </a>
+      <a aria-label="Twitter" class="hover:text-blue-500 transition" href="#">
+       <i class="fab fa-twitter fa-lg">
+       </i>
+      </a>
+      <a aria-label="Instagram" class="hover:text-blue-500 transition" href="#">
+       <i class="fab fa-instagram fa-lg">
+       </i>
+      </a>
+      <a aria-label="LinkedIn" class="hover:text-blue-500 transition" href="#">
+       <i class="fab fa-linkedin fa-lg">
+       </i>
+      </a>
+     </div>
+    </div>
+    <div>
+     <h4 class="text-xl font-bold text-blue-400 mb-6">
+      Contato
+     </h4>
+     <address class="not-italic text-gray-400 space-y-3">
+      <p>
+       <i class="fas fa-map-marker-alt mr-2 text-blue-500">
+       </i>
+       Rua dos Eventos, 123, São Paulo, SP
+      </p>
+      <p>
+       <i class="fas fa-phone mr-2 text-blue-500">
+       </i>
+       +55 (11) 4002-8922
+      </p>
+      <p>
+       <i class="fas fa-envelope mr-2 text-blue-500">
+       </i>
+       contato@eventixel.com.br
+      </p>
+     </address>
+    </div>
+    <div>
+     <h4 class="text-xl font-bold text-blue-400 mb-6">
+      Newsletter
+     </h4>
+     <p class="text-gray-400 mb-4">
+      Receba novidades e ofertas exclusivas no seu e-mail.
+     </p>
+     <form aria-label="Formulário de inscrição na newsletter" class="flex flex-col sm:flex-row gap-4">
+      <input aria-label="Seu e-mail" class="rounded-lg px-4 py-3 text-gray-900 font-semibold focus:outline-none focus:ring-2 focus:ring-blue-500 flex-grow" placeholder="Seu e-mail" required="" type="email"/>
+      <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-lg px-6 py-3 shadow-lg transition" type="submit">
+       Inscrever
+      </button>
+     </form>
+    </div>
+   </div>
+   <div class="mt-12 text-center text-gray-500 text-sm select-none">
+    © 2024 Eventixel. Todos os direitos reservados.
+   </div>
+  </footer>
+  <script>
+   const btnMenu = document.getElementById('btn-menu');
+    const mobileMenu = document.getElementById('mobile-menu');
 
+    btnMenu.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+ </body>
+</html>
